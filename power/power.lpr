@@ -32,7 +32,7 @@ begin // begin of the program body
    
    for exponent := 0 to 10 do // cycle for exponent from 0 to 10
    begin // begin of the for body
-      writeln(base, '^', exponent, ' = ', potenza(base, exponent)); // Print the result base^exponent
+      writeln(base, '^', exponent, ' = ', power(base, exponent)); // Print the result base^exponent
    end;// end of the for body
    
    readln(); // wait for the user to press a key
