@@ -1,0 +1,34 @@
+program project1;
+
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Classes
+  { you can add units after this };
+var
+    esp,base:integer;
+function potenza(b,e:integer):integer; //funzione che restituisce la potenza di un numero
+var ris,step:integer;
+begin
+  ris:=1;
+  step:=e;
+  while(step>0) do
+                begin
+                  ris:=ris*b;
+                  step:=step-1;
+                end;
+  potenza:=ris; //carico risultato in nome funzione
+end;
+begin
+  base:=2;
+  for esp:=0 to 10 do
+                   begin
+                  //stampa base^esp
+                  writeln(base,'^',esp,' = ',potenza(base,esp));
+                   end;
+  readln();
+end.
+
