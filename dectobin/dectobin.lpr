@@ -21,14 +21,14 @@ begin // begin of the program body
   begin
      remainder := number mod 2; // Compute the remainder dividing by 2
      number := number div 2; // The new number is the preceding number divided by 2
-     bin[counter] := resto; // Insert the remainder in the vector
+     bin[counter] := remainder; // Insert the remainder in the vector
      counter := counter+1; // Increment the counter by 1
   end;
 
   // Print the result
   while(counter > 0)do
   begin	
-     coutner := counter-1;
+     counter := counter-1;
      write(bin[counter]);
   end; // end of the while body
    
