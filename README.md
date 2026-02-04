@@ -10,4 +10,8 @@ This repository is a collection of applications I wrote time ago while I was stu
 
 ## fileofchar
 
+## imagefile
+
+## writeonfile
+
 
