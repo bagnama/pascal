@@ -4,13 +4,13 @@ This repository is a collection of applications I wrote time ago while I was stu
 
 ## 2power
 
+## power
+
 ## basetodec
 
 ## dectobin
 
 ## realtobin
-
-## 
 
 ## fileofchar
 
