@@ -6,4 +6,8 @@ This repository is a collection of applications I wrote time ago while I was stu
 
 ## basetodec
 
-##
+## dectobin
+
+## fileofchar
+
+
