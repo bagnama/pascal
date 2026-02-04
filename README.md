@@ -1,3 +1,9 @@
 # pascal
 
-Some code I wrote long time ago while I was studying pascal.
+This repository is a collection of applications I wrote time ago while I was studying pascal. 
+
+## 
+
+##
+
+##
