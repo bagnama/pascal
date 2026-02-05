@@ -28,13 +28,13 @@ begin // begin of the function body
 end; // end of the functin body
 
 begin // begin of the program body
-   base := 2; // set a base for the exponentiation
-   
-   for exponent := 0 to 10 do // cycle for exponent from 0 to 10
-   begin // begin of the for body
-      writeln(base, '^', exponent, ' = ', power(base, exponent)); // Print the result base^exponent
-   end;// end of the for body
-   
-   readln(); // wait for the user to press a key
+   writeln('Insert the base:'); // Ask to enter the base of the exponentiation
+   readln(base); // Read the number inserted and save it in the base variable
+   writeln('Insert the exponent:'); // Ask to enter the exponent of the exponentiation
+   readln(exponent); // Read the number inserted and save it in the exponent variable
+   result := power(base, exponent); // Compute the power using POT2I and store the returned value in the result variable
+   writeln('Result=', result); // Print the result
+   readln; // Attend the user to press something in the keyboard to close the program
 end. // end of the program body
+
 
